@@ -1,0 +1,7 @@
+2026-09-30T06:40:24.7092064-04:00
+curl.exe --connect-timeout 10 --max-time 15 http://ec2-54-144-93-248.compute-1.amazonaws.com:8080/api/health
+curl: (28) Connection timed out after 10010 milliseconds
+curl exit code: 28
+2026-09-30T06:41:04.2778198-04:00 Recheck after observing the application listening on 9090
+curl: (28) Connection timed out after 10010 milliseconds
+curl exit code: 28

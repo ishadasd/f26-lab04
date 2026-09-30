@@ -1,0 +1,6 @@
+SSM session to i-0821106e9863c5db5, 2026-09-30.
+Commands executed: sudo docker ps; sudo docker logs lab04-service
+Output lines (terminal control sequences and echoed keystrokes omitted):
+CONTAINER ID   IMAGE                                     COMMAND                  CREATED         STATUS         PORTS                                       NAMES
+79e7d5d798cd   ghcr.io/cmu-17-214/lab04-service:latest   "/__cacert_entrypoin…"   9 seconds ago   Up 8 seconds   0.0.0.0:8080->8080/tcp, :::8080->8080/tcp   lab04-service
+lab04-service listening on 9090

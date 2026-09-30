@@ -1,0 +1,12 @@
+[
+    {
+        "OutputKey": "InstanceId",
+        "OutputValue": "i-0821106e9863c5db5",
+        "Description": "Instance id, for `aws ssm start-session --target <id>`."
+    },
+    {
+        "OutputKey": "ServiceUrl",
+        "OutputValue": "http://ec2-54-144-93-248.compute-1.amazonaws.com:8080",
+        "Description": "Public URL of the service. Health check is at /api/health."
+    }
+]

@@ -58,6 +58,6 @@ published in this lab fork.
 ## Preparation status (2026-09-30)
 
 Local Docker build, four service tests, and an external-to-container local health
-check passed; outputs are in `evidence/`. AWS deployment milestones in
-`DEPLOYMENT.md` are not yet complete. Local evidence does not replace the required
-AWS deployment, diagnosis, healthy redeployment, and teardown evidence.
+check passed; outputs are in `evidence/`. All three AWS milestones are recorded in
+`DEPLOYMENT.md`: healthy external check, scenario-2 SSM diagnosis and healthy
+replacement, then confirmed stack deletion and Learner Lab termination.

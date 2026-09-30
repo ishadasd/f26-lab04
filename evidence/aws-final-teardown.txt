@@ -1,0 +1,3 @@
+2026-09-30T06:46:40.3980691-04:00 Final stack deletion completed; subsequent describe-stacks:
+
+aws: [ERROR]: An error occurred (ValidationError) when calling the DescribeStacks operation: Stack with id lab04-service does not exist
