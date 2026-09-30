@@ -48,3 +48,16 @@ explain what got created, deploy the broken variant and diagnose it, tear it dow
 CI is configured in `.github/workflows/ci.yml`. Every push runs the service tests and
 builds the container image. GitHub disables workflows on a fresh fork, so enable
 them from the Actions tab if it asks.
+
+## Agent assistance
+
+Tool/model used: OpenAI Codex desktop, GPT-6 Astra (`gpt-6-astra`), for setup,
+template review, evidence preparation, and explanations. No agent transcript is
+published in this lab fork.
+
+## Preparation status (2026-09-30)
+
+Local Docker build, four service tests, and an external-to-container local health
+check passed; outputs are in `evidence/`. AWS deployment milestones in
+`DEPLOYMENT.md` are not yet complete. Local evidence does not replace the required
+AWS deployment, diagnosis, healthy redeployment, and teardown evidence.
